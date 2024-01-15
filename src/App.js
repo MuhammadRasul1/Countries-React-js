@@ -1,15 +1,17 @@
-
-import { Header } from "./components/header/Header";
-import { Cards } from "./components/cards/Cards";
-import { Search } from "./components/search/Search";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Header } from "./components/Header";
+import { Main } from "./pages/Main";
+import { CardDetail } from "./pages/CardDetail";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Search />
-      <Cards />
-    </div>
+    <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Main />}/>
+          <Route path="/detail/:name" element={<CardDetail /> }/>
+        </Routes>
+    </BrowserRouter>
   );
 }
 

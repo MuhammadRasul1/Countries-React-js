@@ -1,0 +1,25 @@
+.main {
+    margin-top: 80px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CountriesLists {
+    margin-top: 48px;
+}
+
+.cards__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -75px;
+    margin-bottom: -72px;
+}

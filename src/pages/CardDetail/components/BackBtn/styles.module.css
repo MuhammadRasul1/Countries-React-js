@@ -1,0 +1,19 @@
+.btn {
+    padding: 10px 39px 10px 32px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.29);
+}
+
+.btnText {
+    margin-left: 10px;
+    color: #111517;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 125% */
+}
